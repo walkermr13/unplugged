@@ -231,9 +231,17 @@ footer .social {
 }
 
 footer .social p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -541,7 +549,7 @@ input[type=button] {
   .features h2 {
     margin-bottom: 20px;
   }
-  
+
   .features article {
     display: flex;
     align-items: center;
@@ -566,13 +574,25 @@ input[type=button] {
     width: 65%;
     /* margin: 100px 0; */
   }
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
   }
   footer .contact {
     margin-bottom: 0;
+  }
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  footer p {
+    line-height: 1.285;
+  }
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
   footer .copyright {
     width: 100%;
